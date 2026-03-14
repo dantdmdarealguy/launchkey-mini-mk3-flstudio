@@ -1,2 +1,4 @@
 runFL.ps1
 .venv/
+__pycache__/
+*.pyc
