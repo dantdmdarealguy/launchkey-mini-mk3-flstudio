@@ -38,7 +38,9 @@ Button CC Numbers
 
 # ---------------------------------------------------------------------------
 # 128-Color Palette (index -> RGB tuple)
-# Derived from the Novation Launchkey / Launchpad color specification.
+# Reverse-engineered from the FL Studio MIDI script's ``colPalette.py`` which
+# stores the same Novation colour table used across Launchkey / Launchpad
+# devices.  See ``colPalette.palette`` in the repository root.
 # ---------------------------------------------------------------------------
 PALETTE = [
     (97, 97, 97),       # 0   Grey
